@@ -37,13 +37,6 @@ public class Circle_Test {
 		assertTrue(c1.getRadius() == r);
 		assertTrue(c2.getRadius() == r);
 
-		int a = 10;
-		
-		iCircleRead ca1 = new Circle(3, 7, a);
-		Circle ca2 = new Circle(4, 6, a);
-		
-		assertTrue(ca1.ComputeArea() == a);
-		assertTrue(ca2.ComputeArea() == a);
 	}
 
 }
